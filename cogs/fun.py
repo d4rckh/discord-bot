@@ -23,7 +23,7 @@ class Fun(commands.Cog):
                  'placeholder']
         embed = discord.Embed(
             title = 'Joke',
-            description = '\nhere is the joke,
+            description = '\nhere is the joke',
             color = discord.Colour.blue()
         )
         embed.add_field(name='Response', value=f'{random.choice(jokes)}')

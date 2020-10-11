@@ -2,18 +2,13 @@ import discord
 import random
 import subprocess
 import sys
-import urllib
 import json
 import async_cse
 import csv
-import base64
 import time
 from numpy import genfromtxt
-import urbandictionary as ud
-from googlesearch import search
 from discord.ext import commands
 from discord.utils import get
-import youtube_dl
 import os
 
 client = commands.Bot(command_prefix = '!')
