@@ -13,7 +13,6 @@ import requests
 from discord.ext.commands import has_permissions, CheckFailure
 import sys
 import os
-import config
 
 client = commands.Bot(command_prefix='!')
 client.remove_command('help')
