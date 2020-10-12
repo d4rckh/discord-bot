@@ -3,6 +3,17 @@ import random
 import os
 from discord.ext import commands
 from config/config.py import *
+import asyncio
+import io
+import colorama
+from colorama import Fore, Back, Style
+import random
+import time
+import requests
+from discord.ext.commands import has_permissions, CheckFailure
+import sys
+import os
+import config
 
 client = commands.Bot(command_prefix='!')
 client.remove_command('help')
